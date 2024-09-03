@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ChocoVidas</title>
+        <a rel="styleheets" href="style.css"></a>
+    </head>
+    <body>
+
+        <h3 color="black" font-size="center" style="font-family: Arial, Helvetica, sans-serif;"> O Chocolate:<i> muito mais que um simples doce.</i></h3>
+        <p> &nbsp;&nbsp;Há séculos, o chocolate encanta paladares ao redor do mundo. Originários das civilizações antigas da América Central, o chocolate se tornou uma paixão global, conquistando os corações de milhões de pessoas. </p>
+        <p> &nbsp;&nbsp;Além de seu sabor irresistível, o chocolate também traz consigo uma série de benefícios para a saúde. Estudos têm mostrado que o consumo moderado de chocolate amargo pode contribuir para a saúde cardiovascular e até mesmo para melhorar o humor.</p>
+        <p> &nbsp;&nbsp;Seja em forma de barra, trufa, bolo ou bebida quente, o chocolate sempre encontra uma maneira de nos surpreender. Sua versatilidade na culinária é impressionante, permitindo a criação de sobremesas incríveis e pratos sofisticados.</p>
+        <p> &nbsp;&nbsp;Portanto, da próxima vez que você saborear um pedaço de chocolate, lembre-se: por trás desse doce há uma rica história e inúmeras possibilidades.<br>Deixe-se envolver por esse prazer sensorial a cada mordida!</p>
+        <br>
+        <br>
+        <br>
+        <table border="2" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+        <caption> TABELA DE CHOCOLATES </caption>
+        <tr>
+            <th>Variedade</th>
+            <th>Valor</th>
+            <th>Calorias</th>
+         </tr>
+        <tr>
+            <td>&nbsp;Chocolate ao Leite</td>
+            <td>&nbsp;5,00</td>
+            <td>&nbsp;250</td>
+        </tr>
+        <tr>
+            <td>&nbsp;Chocololate Amargo 70%</td>
+            <td>&nbsp;7,00</td>
+            <td>&nbsp;200</td>
+        </tr>
+        <tr>
+            <td>&nbsp;Chocolate Branco</td>
+            <td>&nbsp;6,50</td>
+            <td>&nbsp;300</td>
+        </tr>
+        </table>  
+        <br>
+        <br>
+        <br>
+        <ol color="violet" type="I">
+            <li>Chocolate ao Leite:</li>
+        </ol>
+        <ul type="circle">
+            <li>Este tipo de chocolate contém uma porcentagem maior de leite em pó e açúcar, resultendo em um sabor mais doce e uma teztura cremosa.</li>
+            <li>É o tipo mais popular de chocolate, amplamente utilizado em sobremess e confeitos.</li>
+            <li>Geralmente tem um teor de cacau em torno de 30% a 40%.</li>
+        </ul>
+        <ol type="I" start="2">
+            <li>Chocolate Amargo 70%:</li>
+        </ol>
+        <ul type="circle">
+    <li>Conhecido por seu sabor intenso e menos doce, o chocolate amargo possui um teor mais elevado do cacau.</li>
+    <li>Por conta disso, é considerado uma opção mais saudável, já que o caau é rico em antitoxidantes.</li>
+    <li>Pode variar em teor de cacau, sendo que 70% é um nível comum para os apreciadores deste tipo de chocolate.</li>
+        </ul>
+        <ol type="I" start="3">
+            <li>Chocolate Branco</li>
+        </ol>
+        <ul type="circle">
+            <li>Diferente dos outros tipos, o chocolate branco não contém massa de cacau, apenas manteiga de cacau, leite e açúcar.</li>
+            <li>Tem um sabor mais suave e doce, e é apreciado por muitas pessoas especialmente em sobremesas e decorações.</li>
+        </ul>
+
+
+        <br>
+        <br>
+        <br>
+        <p>Já é membro do ChocoVidas?</p>
+        <p><strong>Cadastre-se:</strong></p>
+        <br>
+        <input type="text"><br>Nome
+        <br>
+        <br>
+        <input type="email"><br>Email
+        <br>
+        <br>
+        <input type="password"><br>Senha
+        <br>
+        <br>
+        <input type="password"><br>Confirme a Senha
+        <br>
+        <br>
+        <button onclick="displayAlert()">Pronto</button>
+        <script>
+            function displayAlert() {
+                alert('Ola, Seja Bem Vindo Ao ChocoVidas!!')
+            }
+        </script>
+        <br><br><br><br>
+        <p><strong>Entre:</strong></p>
+        <br>
+        <input type="text"><br>Usuario<br><br>
+        <input type="password"><br>Senha<br><br>
+        <button onclick="displayAlert()">Entrar</button>
+        <script>
+            function displayAlert() {
+                alert('Bom ter Voce De Volta!')
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>O que é o dinheiro/moedas? </title>
+    </header>
+    <body>
+        <aside>
+            <h5>Menu</h5>
+            <a href="#dinheiro">Dinheiro</a><br>
+            <a href="#tabela">Tabela</a><br>
+            <a href="#moedas">Moedas</a>
+        </aside>
+    <main>
+        <h1><b>O que é o dinheiro/moedas?</b></h1>
+        <h2 id="dinheiro"><i>Dinheiro</i></h2>
+        <pre> 
+            O dinheiro é algo essêncial para sobreviver, 
+        para consegui-lo , é necessário trebalhar e 
+        vender algo para que alguém queira trocar um 
+        certo valor em dinheiro pelo seu produto.
+            Com ele podemos obtem várias coisas, como
+        comida, elementos de higiene eletrodomésticos,
+        móveis para a casa, etc, quanto mais você tiver
+        mais coisa pode comprar, dependendo do valor do
+        que deseja.
+            Quando se fala em valores de outros países,
+        o dinheiro passa a ser chamado de "moeda", esses
+        valores são definidos pela "bolsa de valores" que
+        se localiza nos EUA, a cada dia, possui uma
+        pequena mudança  no mercado internacional.
+        </pre>
+        <hr>
+        <table id="tabela" border="solid">
+            <caption><i> Moeda de principais países:</i> </caption>
+            <tr>
+                <th>PAÍS</th>
+                <TH>MOEDA</TH>
+                <TH>VALOR</TH>
+                <TH>REAL</TH>
+            </tr>
+            <tr>
+                <td>EUA</td>
+                <td>Dólar</td>
+                <td>$1</td>
+                <td>R$5,16</td>
+            </tr>
+            <tr>
+                <td>Continente Europeu</td>
+                <td>Euro</td>
+                <td>€1</td>
+                <td>R$5,56</td>
+            </tr>
+            <tr>
+                <td>Japão</td>
+                <td>Iene</td>
+                <td>¥1</td>
+                <td>0,033</td>
+            </tr>
+            <tr>
+                <td>Rússia</td>
+                <td>Rublo</td>
+                <td>₽1</td>
+                <td>0,056</td>
+            </tr>
+        </table>
+        <hr>
+        <div>
+            <h2 id="moedas"><i>Moedas</i></h2>
+            <h4>Dólar Americano</h4>
+                <pre>   
+                        O dólar americano é a moeda oficial dos
+                    Estados Unidos da América.
+                        É amplamente aceito em todo o mundo como
+                    uma moeda de reserva e é usado em transações
+                    internacionais.
+                        O código do dólar americano é USD e seu
+                    símbolo é $.
+                        O dólar é influenciado por fatores 
+                    econômicos, políticos e decisões do Federal 
+                    Reserve (banco central dos EUA).
+                </pre>
+            <h4>Euro</h4>
+                <pre>
+                        O euro é a moeda oficial de 19 países da 
+                    União Europeia.
+                        É usado em nações como Alemanha, França, 
+                    Itália, Espanha e outros.
+                        O código do euro é EUR e seu símbolo é €.
+                        O Banco Central Europeu (BCE) é responsável
+                    pela política monetária do euro.
+                </pre>
+            <h4>Iene</h4>
+                <pre>
+                        O iene japonês é a moeda oficial do Japão.
+                        É uma das moedas mais negociadas no mercado 
+                    de câmbio.
+                        O código do iene japonês é JPY e seu símbolo 
+                    é ¥.
+                        O Banco do Japão (BoJ) controla a política 
+                    monetária do iene.
+                </pre>
+            <h4>Rublo</h4>
+                <pre>
+                        O rublo russo é a moeda oficial da Rússia.
+                        O código do rublo russo é RUB e seu símbolo 
+                    é ₽.
+                        O rublo é influenciado por fatores como 
+                    preços do petróleo, política russa e sanções 
+                    internacionais.
+                </pre>
+            </main>
+        </div>
+       
+        </aside>
+        
+        <style>
+            h1 {
+                font-family: 'Times New Roman', Times, serif;
+                text-align: center;
+            }
+            h4 {
+                text-align: center;
+                color: darkcyan;
+                background-color: rgb(239, 236, 245);
+            }
+            h2 {
+                text-align: center;
+            }
+            main {
+                padding: 10px;
+                margin: 10px;
+            }
+            table {
+                margin: auto;
+            }
+            aside {
+                float: left;
+            }
+            pre { 
+                text-align: center;
+            }
+        </style>
+        
+    </body>
+</html>

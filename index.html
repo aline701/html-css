@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de &lt;aside&gt; completo dentro de &lt;article&gt;</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        article {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            max-width: 800px;
+            margin: 0 auto;
+            overflow: hidden; /* Para conter floats */
+        }
+        main {
+            float: left;
+            width: 70%; /* Largura do conteúdo principal */
+        }
+        aside {
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 0 6px rgba(0,0,0,0.1);
+            width: 30%; /* Largura do aside */
+            height: 40%;
+            float: right;
+            margin-left: 20px;
+        }
+        h1, h2 {
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <article>
+        <main>
+            <h1>Título do Artigo</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel arcu neque. Pellentesque tincidunt est eu diam rhoncus, a commodo arcu fringilla.</p>
+            
+            <p>In hac habitasse platea dictumst. Fusce aliquet velit in nunc tempor, sed vehicula erat elementum. In et sapien ut purus euismod sodales.</p>
+            
+            <p>Duis ac hendrerit risus. Ut id sollicitudin ipsum. Cras consequat leo vel tincidunt fermentum.</p>
+        </main>
+        
+        <aside>
+            <h2>Informações Adicionais</h2>
+            <p>Aqui vão algumas informações extras que complementam o conteúdo principal do artigo.</p>
+            <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+            </ul>
+        </aside>
+        
+    </article>
+</body>
+</html>
+
+
+
+
+

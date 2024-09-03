@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+/*--cabeçalho--*/
+header{
+   background-color: rgba(189, 140, 235, 0.473);
+   margin: 20px 0;
+   padding: 10px 10px;
+   border-radius: 7px;
+}
+h1 {
+   margin: auto;
+   color: rgba(142, 195, 241, 0.685);
+   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.164);
+   text-align: center;
+}
+nav {
+   margin: 15px 10px;
+   color: rgba(165, 42, 42, 0.685);
+}
+
+/*--corpo--*/
+main {
+ background-color: rgba(85, 245, 245, 0.404);
+ padding: 15px 10px;
+ border-radius: 8px;
+}
+section {
+background-color: rgba(238, 212, 155, 0.884);
+padding: 5px 3px;
+border-radius: 4px;
+}
